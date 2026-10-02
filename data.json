@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": "1790767678449",
+      "name": "Rizky Maulana",
+      "email": "rartcrew@gmail.com",
+      "phone": "123456789102",
+      "password": "12345678",
+      "address": "",
+      "resetToken": "litfpztzen"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-704128",
+      "userId": "1790767678449",
+      "shoeType": "Sneakers",
+      "serviceType": "Fast Clean",
+      "pairs": 1,
+      "notes": "",
+      "price": 30000,
+      "status": "Pending",
+      "createdAt": "2026-09-30T11:28:24.128Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "SA-1",
+      "name": "Super Admin Utama",
+      "email": "super@alastempur.com",
+      "password": "password123",
+      "role": "Super Admin"
+    }
+  ],
+  "services": [
+    {
+      "id": "S-1",
+      "name": "Deep Clean - Sepatu Putih",
+      "price": 35000,
+      "durationDays": 3,
+      "isActive": true
+    },
+    {
+      "id": "S-2",
+      "name": "Fast Clean - Sepatu Putih",
+      "price": 25000,
+      "durationDays": 1,
+      "isActive": true
+    }
+  ],
+  "cms": {
+    "phone": "0812-3456-7890",
+    "email": "cs@alastempur.com",
+    "address": "Jl. Bersih Berkilau No. 123",
+    "heroText": "Rawat Sepatu Kesayanganmu.",
+    "aboutText": "Layanan cuci sepatu premium yang cepat, aman, dan terpercaya."
+  },
+  "promos": []
+}
